@@ -1,0 +1,115 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+</head>
+    <body>
+        <h1>CHAT application</h1>
+        <form method ="POST" action="http://localhost:3000/home">
+            username:<input type="text" name="username"/>
+            <br><input type="submit" value="login">   
+        </form>
+        
+     </body>
+</html>-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+         <link rel="stylesheet" href="t1.css">
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+         <link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+			integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+			crossorigin="anonymous"
+		/>
+        <title>Login Page</title>
+    </head>
+    <body class="">
+        <div class="container-fluid">
+        <div class="row " id="Header">
+            <br><br><br><br><br><br>
+           </div>
+        <div class="row" >
+            <div class="mx-auto">     
+                
+              <div class="row" style="max-width:450px;min-width:450px;background-color:#f4fae1e7;"id="loginform">
+                <div class=" col-12">
+                <form class="" style="margin-left:5%" method="POST" action="http://localhost:3000/home">
+                  <div>
+                  <br>
+                  <div class="row">
+                    <i class="material-icons offset-3  " style="margin-top:1.5%" id="signin">&nbsp;&nbsp;&nbsp;sms</i>
+                    <div class=" align-self-center" ><h3 id="signin" style="height:auto;width:auto;  font-family:Segoe UI;">&nbsp;Let's Chat</div>
+                 </div>
+                  <br>
+                  <div class="form-group">
+                    <div class="row mx-auto">
+                      <div class="col-5 row">
+                        <i class="material-icons" style="margin-top:1.5%" id="signin11">person</i>
+                        <h5 class="text-dark align-self-center" id="signin1" >&nbsp;&nbsp;User Id:</h5></div>
+                    <input type="text" placeholder="  Enter the username . . ." class="form-control col-7" style="max-height:30px" name="username" id="txtUsername" onchange="usernameValidation();"/></div>
+                    <div id="ReactSignin">
+                    <p></p>
+                    </div>
+                  </div>
+                       
+                  <div class="form-group">
+                    <div class="row mx-auto">
+                      <div class="col-5 row">
+                         <i class="material-icons " style="margin-top:0%" id="signin11">https</i>
+                         <h5 class="text-dark align-self-center" id="signin1" >&nbsp;&nbsp;Password:</h5></div>
+                    <input type="password" placeholder="  Enter the password . . ." class="form-control col-7" style="max-height:30px;" id="txtPassword" onchange="passwordValidation();"/></div>
+                    <div id="ReactPassword">
+                      <p></p>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="row mx-auto">
+                      <div class="col-5 row">
+                        &nbsp;<i  class="fas fa-comments" style="margin-top:2%" id="signin11"></i>
+                         <h5 class="text-dark align-self-center" id="signin1" >&nbsp;&nbsp;Chatroom:</h5></div>
+                   
+                    <!-- <input class="form-control bg-transparent col-8"type="file" />-->
+                     <select class="form-control option col-7" style="max-height:35px;" name="dropdown">
+                         <option disable="disable" selected="selected" class="text-center">&nbsp;&nbsp;&nbsp;--choose option--</option>
+                         <option>Angular</option>
+                         <option>Nodejs</option>
+                         <option>MongoDb</option>
+                         <option>Express</option>
+                     </select>
+                    </div>
+                  </div>    
+                  <div class="form-group">
+                    <div class="row offset-3 ">
+             <!--      <input type="submit" value=" Login and Continue" class="btn btn-info" style="margin-left:0%;" id="button" name="button"/></div>onclick="signinHandler();"-->
+                    <button type="submit" class="btn btn-info" style="margin-left:0%;">Login and Continue</button>
+                  </div>
+                  <br>
+                  <div class="form-group ">
+                    <a href="" id="signin111">Forgot password?<br></a>
+                    <a href="" id="signin111">Create new account<br></a>
+                    </div>  
+                  
+                   
+                  
+                   <br>
+                </form>
+              </div>
+              <div>
+
+              </div>
+            </div>
+            </div>
+          
+        </div>
+       </div>
+       <script src="loginscr.js"></script>
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+         
+    </body>
+</html>

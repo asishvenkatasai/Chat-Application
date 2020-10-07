@@ -1,0 +1,75 @@
+body
+{
+  background-image:url(back1.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+}
+#login
+{
+    height:auto;
+    width:auto;
+    margin-left:0%;
+}
+#company_name
+{
+    font-family: Nunito;
+    height:auto;
+    width:auto;
+    margin-left:15%; 
+    font-size:4vw;
+    max-height:100px;
+}
+#logo
+{
+ width:auto;
+ height:auto;   
+ margin-left:40%; 
+ max-height:100px;    
+}
+
+#signin1
+{
+    font-size:auto;
+}
+#boxre
+{
+    width:auto;
+}
+#txtUsername
+{
+    width:auto;
+}
+#txtPassword
+{
+   width:auto;
+}
+#Header
+{
+ max-height:100px;
+}
+#b1
+{
+    min-width:700px;
+}
+input[type=checkbox]:checked +label:before{
+    background-color: black;
+    color:white;
+}
+#loginform
+{
+ border-radius:15px 15px 10px 10px;
+}
+#signin111
+{ 
+    color:#491f01;
+    font-size:auto;
+    min-width:100px;
+}
+#ReactSignin
+{
+    color:red;
+}
+#ReactPassword
+{
+    color:red;
+}
