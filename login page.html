@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+         <link rel="stylesheet" href="t1.css">
+         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Login Page</title>
+    </head>
+    <body class="">
+        <div class="container-fluid">
+        <div class="row " id="Header">
+            <div class="col-2"><img src="logo.png" alt="Logo" class="img-fluid" id="logo"></div>
+            <div class="offset-1 col-9 align-self-center " ><h2 class="text-dark" id="company_name"><p>&nbsp;&nbsp;Interview Bit</p></h2></div>
+           </div>
+        <div class="row" >
+            <div class="mx-auto">     
+                
+              <div class="row" style="max-width:500px;min-width:390px;background-color:#f4fae1e7;"id="loginform">
+                <div class=" col-12">
+                <form class="" style="margin-left:5%" method="POST" action="http://localhost:3000/home">
+                  <div>
+                  <br>
+                  <div class="row">
+                    <i class="material-icons offset-2  " style="margin-top:1.5%" id="signin">&nbsp;login</i>
+                    <div class=" align-self-center" ><h3 id="signin" style="height:auto;width:auto;  font-family: Nunito;">&nbsp;Sign into IB</div>
+                 </div>
+                  <br>
+                  <div class="form-group">
+                    <div class="row mx-auto">
+                      <div class="col-6 row">
+                        <i class="material-icons" style="margin-top:1.5%" id="signin11">email</i>
+                        <h5 class="text-dark align-self-center" id="signin1" >Email id:&nbsp;&nbsp;</h5></div>
+                    <input type="text" placeholder="Enter the username" class="form-control col-6" style="max-height:30px" name="username" id="txtUsername"/></div>
+                    <div id="ReactSignin">
+                    <p></p>
+                    </div>
+                  </div>
+                       
+                  <div class="form-group">
+                    <div class="row mx-auto">
+                      <div class="col-6 row">
+                         <i class="material-icons " style="margin-top:0%" id="signin11">https</i>
+                         <h5 class="text-dark align-self-center" id="signin1" >password:&nbsp;&nbsp;</h5></div>
+                    <input type="password" placeholder="Enter the password" class="form-control col-6" style="max-height:30px;" name="password" id="txtPassword"/></div>
+                    <div id="ReactPassword">
+                      <p></p>
+                      </div>
+                  </div>
+                  <div class="form-group">
+                    <h5 class="align-self-center" style="margin-left:0%">chatroom:</h5>
+                    <!-- <input class="form-control bg-transparent col-8"type="file" />-->
+                     <select class="form-control option " name="dropdown">
+                         <option disable="disable" selected="selected">--choose option--</option>
+                         <option>Angular</option>
+                         <option>Nodejs</option>
+                         <option>MongoDb</option>
+                         <option>Express</option>
+                     </select>
+                  </div>
+                 <div class="form-group">
+                    <input type="checkbox" class="align-self-center" style="margin-top:5%"><lable class="text-dark"  id="signin1"> remember me</label> 
+                    </div> 
+                  <div class="form-group">
+                    <div class="row">
+                    <input type="submit" value=" Login and Continue" class="btn btn-info" style="margin-left:25%;" /></div><!--onclick="signinHandler();"-->
+                  </div>
+                  <div class="form-group ">
+                    <a href="" id="signin111">Forgot password?<br></a>
+                    <a href="" id="signin111">Create new account<br></a>
+                    </div>  
+                  <div style="color:black;height:1px;">
+                    <hr  style="background-color: black;">
+                   </div> 
+                   <div class="row offset-5">OR</div>
+                   <div class="row offset-4">Login With</div>
+                   <br>
+                   <div class="row">
+                      <div class="offset-1 col-3">
+                       <a href="#"> <img src="facebook.jpg" style="max-width:40px; max-height:40px;"></a>
+                      </div>
+                      <div class="col-3" style="margin-left:3%;">
+                        <a href="#">  <img src="linkedin.jpg" style="max-width:40px; max-height:40px;"></a>
+                      </div>
+                      <div class="col-3" style="margin-left:3%;">
+                        <a href="#"> <img src="gmail.jpg" style="max-width:40px; max-height:40px;"></a>
+                      </div>
+                   </div>
+                   <br>
+                </form>
+              </div>
+              <div>
+
+              </div>
+            </div>
+            </div>
+          
+        </div>
+       </div>
+       <script src="loginscr.js"></script>
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+         
+    </body>
+</html>
